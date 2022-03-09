@@ -10,10 +10,11 @@ int main() {
     getline(cin, a);
     getline(cin, b);
     getline(cin, c);
+
     cout << a << b << c << endl;
     cout << b << c << a << endl;
     cout << c << a << b << endl;
-    cout << setw(10) << a << setw(10) << b << setw(10) << c <<  endl;
+    cout << a.substr(0,10) << b.substr(0,10) << c.substr(0,10) <<  endl;
 
     return 0;
 }
