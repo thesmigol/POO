@@ -8,7 +8,7 @@ int main() {
     
     cin >> nota;
     
-    if (nota = 0){
+    if (nota == 0){
     cout << "E" << endl;
     } else  if (nota >= 1 && nota <= 35){
     cout << "D" << endl;
