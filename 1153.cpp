@@ -16,3 +16,4 @@ int main(){
     cout << fat << endl;
     return 0;
 }
+
